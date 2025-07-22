@@ -1,4 +1,19 @@
+<svelte:options runes />
 <script lang="ts">
+    let mobileMenuOpen = $state(false);
+
+  const navigation = [
+    { name: 'Pravidla', href: '/pravidla' },
+    { name: 'Propozice', href: '/propozice' },
+    { name: 'Trať závodu', href: '/trat-zavodu' },
+    { name: 'Startovka', href: '/startovka' },
+    { name: 'Výsledky', href: '/vysledky' }
+  ];
+  const cta = { name: 'Registrace', href: '/registrace' };
+
+  function toggleMobileMenu() {
+    mobileMenuOpen = !mobileMenuOpen;
+  }
 </script>
 
 
@@ -11,7 +26,7 @@
       </a>
     </div>
     <div class="flex lg:hidden">
-      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" onclick={toggleMobileMenu}>
         <span class="sr-only">Otevřít hlavní menu</span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
           <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -19,17 +34,16 @@
       </button>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
-	<a href="/pravidla" class="text-sm/6 font-semibold text-gray-900">Pravidla</a>
-	<a href="/propozice" class="text-sm/6 font-semibold text-gray-900">Propozice</a>
-	<a href="/trat-zavodu" class="text-sm/6 font-semibold text-gray-900">Trať závodu</a>
-	<a href="/startovka" class="text-sm/6 font-semibold text-gray-900">Startovka</a>
-	<a href="/vysledky" class="text-sm/6 font-semibold text-gray-900">Výsledky</a>
+      {#each navigation as item}
+        <a href={item.href} class="text-sm/6 font-semibold text-gray-900">{item.name}</a>
+      {/each}
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="/registrace" class="text-sm/6 font-semibold text-gray-900">Registrace <span aria-hidden="true">&rarr;</span></a>
+      <a href="{cta.href}" class="text-sm/6 font-semibold text-gray-900">{cta.name} <span aria-hidden="true">&rarr;</span></a>
     </div>
   </nav>
   <!-- Mobile menu, show/hide based on menu open state. -->
+     {#if mobileMenuOpen}
   <div role="dialog" aria-modal="true" class="lg:hidden">
     <!-- Background backdrop, show/hide based on slide-over state. -->
     <div class="fixed inset-0 z-50"></div>
@@ -39,7 +53,7 @@
           <span class="sr-only">Slapy Trail Maniacs</span>
           <img src="/slapy-trail-maniacs-2025-logo.svg" alt="" class="h-20 w-auto" />
         </a>
-        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" onclick={toggleMobileMenu}>
           <span class="sr-only">Zavřít menu</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
             <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
@@ -49,17 +63,28 @@
       <div class="mt-6 flow-root">
         <div class="-my-6 divide-y divide-gray-500/10">
           <div class="space-y-2 py-6">
-            <a href="/pravidla" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Pravidla</a>
-            <a href="/propozice" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Propozice</a>
-            <a href="/trat-zavodu" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Trať závodu</a>
-            <a href="/startovka" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Startovka</a>
-            <a href="/vysledky" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Výsledky</a>
+              {#each navigation as item}
+                <a
+                  href={item.href}
+                  onclick="{toggleMobileMenu}"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  {item.name}
+                </a>
+              {/each}
           </div>
           <div class="py-6">
-            <a href="/registrace" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Registrace</a>
+            <a
+              href="{cta.href}"
+              onclick="{toggleMobileMenu}"
+              class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+            >
+              {cta.name}
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  {/if}
 </header>
