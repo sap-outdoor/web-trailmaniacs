@@ -2,6 +2,8 @@
 
 Project for the Slapy Trail Maniacs website.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a3c2de2a-7099-4a62-ac35-c8696c62bb05/deploy-status)](https://app.netlify.com/projects/slapy-trail-maniacs/deploys)
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
