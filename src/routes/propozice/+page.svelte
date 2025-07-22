@@ -16,9 +16,9 @@ Trailový terénní značený závod jednotlivců v okolí slapské přehrady. V
 
 <h3>Délka a převýšení</h3>
 
-<li>61 km 2300+/2400- — [GPX](https://www.dropbox.com/scl/fi/z4hc5uzz2uxvf663emklv/Slapy-Trail-Maniacs-61km.gpx?rlkey=oc8ibiib28cp4okc8y6rd4o7w&dl=1)  
-<li>47 km 1850+/1850- — [GPX](https://www.dropbox.com/scl/fi/6wsk5bggsm9axjxthm4w7/Slapy-Trail-Maniacs-47km.gpx?rlkey=hoae24rnbbbxu9qecc89v3qba&dl=1)  
-<li>33 km 1200+/1150- — [GPX](https://www.dropbox.com/scl/fi/5uud47ki8x086m6hybuac/Slapy-Trail-Maniacs-33km.gpx?rlkey=1y626vf24p89l5ygbsyx4rc2p&dl=1)
+<li>61 km 2300+/2400- — <a class="text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline-indigo-600 inline-block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 w-15" href="https://www.dropbox.com/scl/fi/z4hc5uzz2uxvf663emklv/Slapy-Trail-Maniacs-61km.gpx?rlkey=oc8ibiib28cp4okc8y6rd4o7w&dl=1">GPX</a></li>
+<li>47 km 1850+/1850- — <a class="text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline-indigo-600 inline-block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 w-15" href="https://www.dropbox.com/scl/fi/6wsk5bggsm9axjxthm4w7/Slapy-Trail-Maniacs-47km.gpx?rlkey=hoae24rnbbbxu9qecc89v3qba&dl=1">GPX</a></li>
+<li>33 km 1200+/1150- — <a class="text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline-indigo-600 inline-block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 w-15" href="https://www.dropbox.com/scl/fi/5uud47ki8x086m6hybuac/Slapy-Trail-Maniacs-33km.gpx?rlkey=1y626vf24p89l5ygbsyx4rc2p&dl=1">GPX</a></li>
 
 <h3>Kategorie</h3>
 
@@ -31,11 +31,11 @@ Trailový terénní značený závod jednotlivců v okolí slapské přehrady. V
 
 <h3>UTMB Index</h3>
 
-<p>Dokončení jakékoliv tratě Slapy Trail Maniacs přispěje k vašemu UTMB indexu. Více informací naleznete přímo [na webu UTMB](https://utmb.world/index-races).</p>
+<p>Dokončení jakékoliv tratě Slapy Trail Maniacs přispěje k vašemu UTMB indexu. Více informací naleznete přímo <a href="https://utmb.world/index-races">na webu UTMB</a>.</p>
 
-<li>Trať 61 km – ![](http://trailmaniacs.cz/wp-content/uploads/2024/09/utmb-index-50k.png)</li>
-<li>Trať 47 km – ![](http://trailmaniacs.cz/wp-content/uploads/2024/09/utmb-index-50k.png)</li>
-<li>Trať 33 km – ![](http://trailmaniacs.cz/wp-content/uploads/2024/09/utmb-index-20k.png)</li>
+<li>Trať 61 km – <img src="/utmb-index-50k.svg" alt="UTMB Index 50k" class="h-6 inline-block" /></li>
+<li>Trať 47 km – <img src="/utmb-index-50k.svg" alt="UTMB Index 50k" class="h-6 inline-block" /></li>
+<li>Trať 33 km – <img src="/utmb-index-20k.svg" alt="UTMB Index 20k" class="h-6 inline-block" /></li>
 
 <h3>Převoz na start závodu</h3>
 
@@ -99,7 +99,7 @@ Z důvodu bezpečnosti běžců musí mít u sebe každý během závodu násled
 - NRC (alu folie)
 - mobilní telefon
 - nepromokavá bunda
-- čelovka ([pro všechny tratě](http://trailmaniacs.cz/faq-proc-je-celovka-povinna/))
+- čelovka (<a href="/faq/proc-je-celovka-povinna/">pro všechny tratě</a>)
 - 1x vlastní nádoba/kelímek na pití (pro použití na občerstvovacích stanicích)
 
 Chybějící povinné vybavení znamená časovou penalizaci 15 minut za každý chybějící kus.
