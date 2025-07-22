@@ -65,17 +65,21 @@ K dispozici v Hořovické chatě v dostatečném množství.
 
 <h3>Startovné</h3>
 
-1. 700 Kč / 61km, 600 Kč / 47km a 550 Kč / 33km zaplacených v termínu do 30. 9. 2025.
-2. 950 Kč / 61km, 850 Kč / 47km a 750 Kč / 33km zaplacených po 30. 9. 2025 a na místě.
+<ol>
+  <li>700 Kč / 61km, 600 Kč / 47km a 550 Kč / 33km zaplacených v termínu do 30. 9. 2025.</li>
+  <li>950 Kč / 61km, 850 Kč / 47km a 750 Kč / 33km zaplacených po 30. 9. 2025 a na místě.</li>
+</ol>
 
-Platbu proveďte prosím během následujících 5 dnů, pokud nebude platba do 7 dnů od registrace na účtu pořadatele bude vaše registrace zrušena. Při platbě uveďte variabilní symbol vygenerovaný při registraci.
+<p>Platbu proveďte prosím během následujících 5 dnů, pokud nebude platba do 7 dnů od registrace na účtu pořadatele bude vaše registrace zrušena. Při platbě uveďte variabilní symbol vygenerovaný při registraci.</p>
 
-Změny v registraci do 12. 10. 2025 jsou možné neomezeně (závodníci mohou většinu změn zadat sami v registračním systému). Po tomto termínu je změna možná pouze za poplatek 100 Kč splatných na účet či na místě.
+<p>Změny v registraci do 12. 10. 2025 jsou možné neomezeně (závodníci mohou většinu změn zadat sami v registračním systému). Po tomto termínu je změna možná pouze za poplatek 100 Kč splatných na účet či na místě.</p>
 
-Pre našich východných bratov – je možné tiež posielať nasledovné platby v eurách:
+<p>Pre našich východných bratov – je možné tiež posielať nasledovné platby v eurách:</p>
 
-1. €29 / 61km, €25 / 47km a €23 / 33km zaplacených v termínu do 30. 9. 2025.
-2. €39 / 61km, €35 / 47km a €31 / 33km zaplacených po 30. 9. 2025 a na místě.
+<ol>
+  <li>€29 / 61km, €25 / 47km a €23 / 33km zaplacených v termínu do 30. 9. 2025.</li>
+  <li>€39 / 61km, €35 / 47km a €31 / 33km zaplacených po 30. 9. 2025 a na místě.</li>
+</ol>
 
 <h4>Ve startovném je zahrnuto:</h4>
 
