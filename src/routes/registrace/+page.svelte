@@ -1,1 +1,3 @@
 <h2>Registrace na závod</h2>
+<em>V případě komplikací s přihláškou můžete zkusit registraci provést přímo na webu <a href="https://sportt.cz/races/all" target="_blank" rel="noopener noreferrer">Sportovního Servisu</a>.</em>
+<iframe src="https://www.sportt.cz/register/1455" width="100%" height="900px" style="border:none" data-ruffle-polyfilled="" title="Sportovní servis - registrace na závod"></iframe>
