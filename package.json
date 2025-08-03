@@ -17,6 +17,7 @@
 		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
+		"@babeard/svelte-heroicons": "2.0.0-rc.0",
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
 		"@playwright/test": "^1.49.1",

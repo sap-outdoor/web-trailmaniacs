@@ -12,6 +12,9 @@ importers:
         specifier: ^2.0.0
         version: 2.2.0
     devDependencies:
+      '@babeard/svelte-heroicons':
+        specifier: 2.0.0-rc.0
+        version: 2.0.0-rc.0(svelte@5.35.4)
       '@eslint/compat':
         specifier: ^1.2.5
         version: 1.3.1(eslint@9.30.1(jiti@2.4.2))
@@ -102,6 +105,11 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
+
+  '@babeard/svelte-heroicons@2.0.0-rc.0':
+    resolution: {integrity: sha512-zjoRKBHA2QLjj3bi9mJMtyUyb/Y+PGlxiMdVXO3Bv8If3RJBuxtvVAYD2/tUakhxocB272PxhGNz4sixmB0rpA==}
+    peerDependencies:
+      svelte: ^3.44.0
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -1881,6 +1889,10 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.12
       '@jridgewell/trace-mapping': 0.3.29
+
+  '@babeard/svelte-heroicons@2.0.0-rc.0(svelte@5.35.4)':
+    dependencies:
+      svelte: 5.35.4
 
   '@babel/code-frame@7.27.1':
     dependencies:
