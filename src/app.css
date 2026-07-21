@@ -991,3 +991,36 @@
     .startlist-frame-shell iframe{height:1600px;}
   }
 
+  @media (max-width: 920px){
+    header.mobile-nav-open .navrow{
+      height:auto;
+      min-height:76px;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:12px;
+      padding-top:14px;
+      padding-bottom:14px;
+    }
+
+    header.mobile-nav-open nav.links{
+      display:flex;
+      flex-basis:100%;
+      order:10;
+      flex-direction:column;
+      gap:0;
+      padding:10px 0 2px;
+      border-top:1px solid var(--line-paper);
+    }
+
+    header.mobile-nav-open nav.links a{
+      display:block;
+      padding:11px 0;
+      opacity:1;
+    }
+
+    .navmenu-btn{
+      color:var(--ink);
+      line-height:1;
+      padding:8px;
+    }
+  }
