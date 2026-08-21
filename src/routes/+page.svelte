@@ -235,7 +235,7 @@
 					<div><span>Limit</span><b>16 h</b></div>
 				</div>
 				<div class="track-foot">
-					<a href="#" class="gpx-link">GPX ↓</a>
+					<a href="/gpx/slapy-trail-maniacs-2026-61km.gpx" class="gpx-link" download>GPX ↓</a>
 					<span class="utmb-badge-chip"
 						><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 676.89 218.65"
 							><g
@@ -298,7 +298,7 @@
 					<div><span>Limit</span><b>14 h</b></div>
 				</div>
 				<div class="track-foot">
-					<a href="#" class="gpx-link">GPX ↓</a>
+					<a href="/gpx/slapy-trail-maniacs-2026-47km.gpx" class="gpx-link" download>GPX ↓</a>
 					<span class="utmb-badge-chip"
 						><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 676.89 218.65"
 							><g
@@ -361,7 +361,7 @@
 					<div><span>Limit</span><b>11 h</b></div>
 				</div>
 				<div class="track-foot">
-					<a href="#" class="gpx-link">GPX ↓</a>
+					<a href="/gpx/slapy-trail-maniacs-2026-33km.gpx" class="gpx-link" download>GPX ↓</a>
 					<span class="utmb-badge-chip"
 						><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 676.89 218.65"
 							><g
