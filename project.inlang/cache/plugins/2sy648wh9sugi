@@ -1749,6 +1749,9 @@ var maybeMigrateToV2 = async (args) => {
   }
 };
 
+// src/pluginKey.ts
+var PLUGIN_KEY = "plugin.inlang.messageFormat";
+
 // src/import-export/toBeImportedFiles.ts
 var toBeImportedFiles = async ({ settings }) => {
   const result = [];
@@ -1874,6 +1877,7 @@ var importFiles = async ({
   files
 }) => {
   const bundles = [];
+  const bundlesById = /* @__PURE__ */ new Map();
   const messages = [];
   const variants = [];
   for (const file of files) {
@@ -1886,9 +1890,10 @@ var importFiles = async ({
       const result = parseBundle(key, file.locale, flattened[key]);
       messages.push(result.message);
       variants.push(...result.variants);
-      const existingBundle = bundles.find((b) => b.id === result.bundle.id);
+      const existingBundle = bundlesById.get(result.bundle.id);
       if (existingBundle === void 0) {
         bundles.push(result.bundle);
+        bundlesById.set(result.bundle.id, result.bundle);
       } else {
         existingBundle.declarations = unique([
           ...existingBundle.declarations,
@@ -1902,6 +1907,7 @@ var importFiles = async ({
 function parseBundle(key, locale, value) {
   const parsed = parseVariants(key, locale, value);
   const declarations = unique(parsed.declarations);
+  addInputDeclarationsForLocalReferences(declarations);
   const selectors = unique(parsed.selectors);
   const undeclaredSelectors = selectors.filter(
     (selector) => declarations.find((d) => d.name === selector.name) === void 0
@@ -1924,6 +1930,32 @@ function parseBundle(key, locale, value) {
     },
     variants: parsed.variants
   };
+}
+function addInputDeclarationsForLocalReferences(declarations) {
+  const declaredNames = new Set(
+    declarations.map((declaration) => declaration.name)
+  );
+  for (const declaration of declarations) {
+    if (declaration.type !== "local-variable") {
+      continue;
+    }
+    const references = [];
+    if (declaration.value.arg.type === "variable-reference") {
+      references.push(declaration.value.arg.name);
+    }
+    for (const option of declaration.value.annotation?.options ?? []) {
+      if (option.value.type === "variable-reference") {
+        references.push(option.value.name);
+      }
+    }
+    for (const name of references) {
+      if (declaredNames.has(name)) {
+        continue;
+      }
+      declarations.push({ type: "input-variable", name });
+      declaredNames.add(name);
+    }
+  }
 }
 function parseVariants(bundleId, locale, value) {
   if (typeof value === "string") {
@@ -1965,7 +1997,7 @@ function parseVariants(bundleId, locale, value) {
         }
       }
       if (isDuplicate) {
-        break;
+        continue;
       }
       declarations.add(declaration);
     }
@@ -2219,12 +2251,11 @@ function parseMarkupValue(value, index) {
   };
 }
 function parseMatches(value) {
-  const stripped = value.replace(" ", "");
   const matches = [];
   const selectors = [];
-  const parts = stripped.split(",");
+  const parts = value.split(",");
   for (const part of parts) {
-    const [key, value2] = part.split("=");
+    const [key, value2] = part.split("=").map((segment) => segment.trim());
     if (!key || !value2) {
       continue;
     }
@@ -2384,22 +2415,26 @@ function serializeVariants(bundle, message, variants) {
   }
   const entries = [];
   for (const variant of variants) {
-    if (variant.matches.length === 0) {
+    const matches = [...variant.matches];
+    if (matches.length === 0) {
       for (const part of variant.pattern) {
         if (part.type === "expression" && part.arg.type === "variable-reference") {
-          variant.matches.push({ key: part.arg.name, type: "catchall-match" });
+          matches.push({ key: part.arg.name, type: "catchall-match" });
         }
       }
     }
     const pattern = serializePattern(variant.pattern);
-    const match = serializeMatcher(variant.matches);
+    const match = serializeMatcher(matches);
     entries.push([match, pattern]);
   }
   return [
     {
       // naively adding all declarations, even if unused in the variants
       // can be optimized later.
-      declarations: bundle.declarations.sort((a, b) => a.name.localeCompare(b.name)).map(serializeDeclaration).sort(),
+      declarations: [
+        ...bundle.declarations.filter((declaration) => declaration.type === "input-variable").map(serializeDeclaration).sort(),
+        ...bundle.declarations.filter((declaration) => declaration.type === "local-variable").map(serializeDeclaration)
+      ],
       selectors: message.selectors.map((s) => s.name).sort(),
       match: Object.fromEntries(entries)
     }
@@ -2480,7 +2515,7 @@ function escapeMarkupLiteral(value) {
   return value.replace(/\\/g, "\\\\").replace(/\|/g, "\\|").replace(/}/g, "\\}");
 }
 function serializeMatcher(matches) {
-  const parts = matches.sort((a, b) => a.key.localeCompare(b.key)).map(
+  const parts = [...matches].sort((a, b) => a.key.localeCompare(b.key)).map(
     (match) => match.type === "literal-match" ? `${match.key}=${match.value}` : `${match.key}=*`
   );
   return parts.join(", ");
@@ -2517,7 +2552,6 @@ function serializeDeclaration(declaration) {
 }
 
 // src/plugin.ts
-var PLUGIN_KEY = "plugin.inlang.messageFormat";
 var plugin2 = {
   key: PLUGIN_KEY,
   // legacy v2 stuff for backwards compatibility
