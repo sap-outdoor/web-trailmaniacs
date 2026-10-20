@@ -1024,3 +1024,28 @@
       padding:8px;
     }
   }
+
+/* ---- propozice: harmonogram + zvýrazněné info ---- */
+
+  .doc-schedule{margin:8px 0 16px;}
+  .doc-schedule .schedule-row{grid-template-columns:150px 1fr auto; gap:20px; padding:14px 12px;}
+  .doc-schedule .schedule-row .time{font-size:22px; line-height:1.1; white-space:nowrap;}
+  .doc-schedule .schedule-row .time span{font-family:'IBM Plex Mono'; font-size:13px; color:var(--grey); margin-left:4px; font-weight:500;}
+  .doc-schedule .schedule-row .place{font-size:15px;}
+  .doc-schedule .schedule-row .place small{display:block; font-weight:400; font-size:13.5px; color:var(--grey); margin-top:2px;}
+  .doc-schedule .schedule-row .desc{display:flex; gap:6px; justify-content:flex-end; flex-wrap:wrap;}
+  .doc-schedule .schedule-row.is-start{background:var(--ink); color:var(--paper); border-bottom-color:var(--ink);}
+  .doc-schedule .schedule-row.is-start .time{color:var(--accent);}
+  .doc-schedule .schedule-row.is-start .place small{color:var(--grey-on-ink);}
+  .doc-schedule .schedule-row.is-start .trat-tag{border-color:var(--accent); color:var(--accent);}
+  .doc-schedule .schedule-row.is-highlight{background:var(--accent-dim);}
+  .trat-tag{font-family:'IBM Plex Mono'; font-size:11.5px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; border:1px solid var(--line-paper); border-radius:4px; padding:4px 8px; white-space:nowrap;}
+
+  .note-box--highlight{border:none; background:var(--accent-dim); color:var(--ink); font-size:15px;}
+
+  @media (max-width:920px){
+    .doc-schedule .schedule-row{grid-template-columns:96px 1fr; row-gap:6px; gap:12px; align-items:start;}
+    .doc-schedule .schedule-row .time{font-size:18px;}
+    .doc-schedule .schedule-row .time span{display:block; margin-left:0; margin-top:2px;}
+    .doc-schedule .schedule-row .desc{grid-column:2; justify-content:flex-start;}
+  }
