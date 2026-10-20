@@ -361,7 +361,65 @@
     <div class="doc-section" id="harmonogram">
       <div class="kicker">07</div>
       <h2>Časový harmonogram</h2>
-      <div class="note-box"><b>Upřesní organizátor</b>Detailní minutový harmonogram prezentace, vyhlášení výsledků a doprovodného programu bude doplněn blíže k termínu závodu.</div>
+      <p>Sobota 24. 10. 2026</p>
+      <div class="schedule-list doc-schedule">
+        <div class="schedule-row">
+          <div class="time">6:00<span>–6:20</span></div>
+          <div class="place">Prezence<small>Centrum závodu, Hořovická chata</small></div>
+          <div class="desc"><span class="trat-tag">61 km</span></div>
+        </div>
+        <div class="schedule-row">
+          <div class="time">6:30</div>
+          <div class="place">Převoz na start<small>Autobus z centra závodu do Nečína</small></div>
+          <div class="desc"><span class="trat-tag">61 km</span></div>
+        </div>
+        <div class="schedule-row is-start">
+          <div class="time">7:00</div>
+          <div class="place">Start<small>Nečín</small></div>
+          <div class="desc"><span class="trat-tag">61 km</span></div>
+        </div>
+        <div class="schedule-row">
+          <div class="time">7:30<span>–8:30</span></div>
+          <div class="place">Prezence<small>Centrum závodu, Hořovická chata</small></div>
+          <div class="desc"><span class="trat-tag">47 km</span><span class="trat-tag">33 km</span></div>
+        </div>
+        <div class="schedule-row is-start">
+          <div class="time">9:00</div>
+          <div class="place">Start<small>Cholín</small></div>
+          <div class="desc"><span class="trat-tag">47 km</span></div>
+        </div>
+        <div class="schedule-row">
+          <div class="time">10:30<span>–11:00</span></div>
+          <div class="place">Prezence<small>Centrum závodu, Hořovická chata</small></div>
+          <div class="desc"><span class="trat-tag">33 km</span></div>
+        </div>
+        <div class="schedule-row">
+          <div class="time">11:15</div>
+          <div class="place">Převoz na start<small>Autobus z centra závodu k Živohošťskému mostu</small></div>
+          <div class="desc"><span class="trat-tag">33 km</span></div>
+        </div>
+        <div class="schedule-row">
+          <div class="time">11:30<span>–11:45</span></div>
+          <div class="place">Prezence v místě startu<small>Živohošťský most – levý břeh</small></div>
+          <div class="desc"><span class="trat-tag">33 km</span></div>
+        </div>
+        <div class="schedule-row is-start">
+          <div class="time">12:00</div>
+          <div class="place">Start<small>Živohošťský most – levý břeh</small></div>
+          <div class="desc"><span class="trat-tag">33 km</span></div>
+        </div>
+        <div class="schedule-row is-highlight">
+          <div class="time">17:00</div>
+          <div class="place">Vyhlášení výsledků<small>Centrum závodu, Hořovická chata — v případě deště bude upřesněno</small></div>
+          <div class="desc"><span class="trat-tag">Všechny tratě</span></div>
+        </div>
+        <div class="schedule-row">
+          <div class="time">23:00</div>
+          <div class="place">Uzávěrka závodu<small>Cholín — limit všech tratí</small></div>
+          <div class="desc"><span class="trat-tag">Všechny tratě</span></div>
+        </div>
+      </div>
+      <div class="note-box"><b>Prezence na trať 33 km</b>Na trať 33 km se můžete prezentovat buď v centru závodu (7:30–8:30 nebo 10:30–11:00) a jet na start autobusem v 11:15, nebo přímo v místě startu u Živohošťského mostu (11:30–11:45).</div>
       <p>Limit závodu: 16 hodin trať 61 km / 14 hodin trať 47 km / 11 hodin trať 33 km.</p>
     </div>
 
@@ -384,7 +442,8 @@
     <div class="doc-section" id="stravovani">
       <div class="kicker">10</div>
       <h2>Stravování</h2>
-      <p>K dispozici v Hořovické chatě v dostatečném množství.</p>
+      <div class="note-box note-box--highlight"><b>Polévka v cíli zdarma</b>Každý závodník dostane po doběhu v cíli teplou polévku zdarma.</div>
+      <p>Další jídlo a pití je k dispozici v Hořovické chatě v dostatečném množství.</p>
     </div>
 
     <div class="doc-section" id="startovne-doc">
@@ -413,6 +472,7 @@
         <div class="chip">Mapa závodu</div>
         <div class="chip">Itinerář</div>
         <div class="chip">Jídlo a pití na občerstvovacích stanicích</div>
+        <div class="chip">Polévka v cíli</div>
         <div class="chip">Možnost sprchy po doběhu</div>
         <div class="chip">Malý dárek při registraci do konce srpna</div>
       </div>
