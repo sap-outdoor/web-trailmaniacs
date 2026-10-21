@@ -361,6 +361,14 @@
     <div class="doc-section" id="harmonogram">
       <div class="kicker">07</div>
       <h2>Časový harmonogram</h2>
+      <p>Pátek 23. 10. 2026</p>
+      <div class="schedule-list doc-schedule">
+        <div class="schedule-row">
+          <div class="time">18:00<span>–21:45</span></div>
+          <div class="place">Prezence<small>Centrum závodu, Hořovická chata</small></div>
+          <div class="desc"><span class="trat-tag">Všechny tratě</span></div>
+        </div>
+      </div>
       <p>Sobota 24. 10. 2026</p>
       <div class="schedule-list doc-schedule">
         <div class="schedule-row">
