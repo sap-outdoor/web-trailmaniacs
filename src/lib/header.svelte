@@ -9,7 +9,7 @@
     { name: 'Startovka', href: '/startovka' },
     { name: 'Výsledky', href: '/vysledky' }
   ];
-  const cta = { name: 'Registrace', href: '/registrace' };
+  const cta = { name: 'Výsledky', href: '/vysledky' };
 
   function toggleMobileMenu() {
     mobileMenuOpen = !mobileMenuOpen;
