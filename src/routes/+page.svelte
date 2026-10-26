@@ -24,11 +24,11 @@
 			<a href="#info">Info</a>
 			<a href="/propozice">Propozice</a>
 			<a href="/startovka">Startovka</a>
+			<a href="/vysledky">Výsledky</a>
 			<a href="#startovne">Startovné</a>
-			<a href="#galerie">Galerie</a>
 			<a href="#kontakt">Kontakt</a>
 		</nav>
-		<a href="/registrace" class="cta-btn">Registrace</a>
+		<a href="/vysledky" class="cta-btn">Výsledky</a>
 		<button class="navmenu-btn">☰</button>
 	</div>
 </header>
@@ -47,7 +47,7 @@
 			řád náročnější, než by kdokoliv čekal.
 		</p>
 		<div class="hero-actions">
-			<a href="/registrace" class="btn-accent">Přihlásit se na start</a>
+			<a href="/vysledky" class="btn-accent">Výsledky 2026</a>
 			<a href="#trate" class="btn-outline">Vybrat trať</a>
 		</div>
 	</div>
@@ -541,7 +541,8 @@
 	</div>
 </section>
 
-<section id="galerie">
+<!-- Galerie je dočasně skrytá. -->
+<section id="galerie" hidden>
 	<div class="wrap">
 		<div class="section-head">
 			<div>

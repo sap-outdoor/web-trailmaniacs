@@ -22,11 +22,11 @@
 			<a href="/#info">Info</a>
 			<a href="/propozice">Propozice</a>
 			<a href="/startovka">Startovka</a>
+			<a href="/vysledky">Výsledky</a>
 			<a href="/#startovne">Startovné</a>
-			<a href="/#galerie">Galerie</a>
 			<a href="/#kontakt">Kontakt</a>
 		</nav>
-		<a href="/registrace" class="cta-btn">Registrace</a>
+		<a href="/vysledky" class="cta-btn">Výsledky</a>
 		<button class="navmenu-btn">☰</button>
 	</div>
 </header>
