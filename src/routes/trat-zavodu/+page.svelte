@@ -5,4 +5,4 @@
 	href="https://mapy.com/s/pagajeceka">Mapy jednotlivých tratí Slapy Trail Maniacs</a
 >
 
-<p>Mapy pro ročník 2027 upřesníme. Aktuální podklady najdete v <a href="/propozice">propozicích závodu</a>.</p>
+<p>GPX soubory a další informace o tratích najdete v <a href="/propozice">propozicích závodu</a>.</p>

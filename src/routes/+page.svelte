@@ -198,8 +198,7 @@
 				<h2>Vyberte si distanci.</h2>
 			</div>
 			<p class="lead">
-				Tři profily, jeden terén. Čím delší trať, tím míň asfaltu vám bude chybět. GPX zatím
-				odpovídají ročníku 2026; podklady pro rok 2027 upřesníme.
+				Tři profily, jeden terén. Čím delší trať, tím míň asfaltu vám bude chybět.
 			</p>
 		</div>
 		<div class="track-grid">

@@ -117,7 +117,6 @@
 		<div class="doc-section" id="delka">
 			<div class="kicker">03</div>
 			<h2>Délka a převýšení</h2>
-			<p>Mapy a GPX zatím odpovídají ročníku 2026. Podklady pro rok 2027 upřesníme.</p>
 			<div class="mini-track-grid">
 				<div class="mini-track">
 					<div class="n">61<span>km</span></div>

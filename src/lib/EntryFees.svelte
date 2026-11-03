@@ -27,7 +27,6 @@
 	tabindex="0"
 >
 	<table class="price-table">
-		<caption>Startovné 2027 · Kč / EUR</caption>
 		<thead>
 			<tr>
 				<th scope="col">Trať</th>
