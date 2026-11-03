@@ -6,8 +6,6 @@
         {name: 'Pravidla', href: '/pravidla'},
         {name: 'Propozice', href: '/propozice'},
         {name: 'Trať závodu', href: '/trat-zavodu'},
-        {name: 'Startovka', href: '/startovka'},
-        {name: 'Registrace', href: '/registrace'},
         {name: 'Výsledky', href: '/vysledky'},
     ];
 
