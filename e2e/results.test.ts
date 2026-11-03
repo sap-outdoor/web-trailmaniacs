@@ -12,14 +12,14 @@ test('searches names without accents and preserves official positions', async ({
 	await expect(page.locator('tbody tr')).toHaveCount(1);
 	await expect(page.locator('tbody tr')).toContainText('Štěpán Skripnik');
 	await expect(page.locator('tbody tr td').first()).toHaveText('3.');
-	await expect(page.getByRole('status')).toHaveText('Zobrazeno 1 z 90 výsledků');
+	await expect(page.getByRole('status')).toHaveText('Zobrazeno 1 z 89 výsledků');
 	await search.fill('stepan 35');
 	await expect(page.locator('tbody tr')).toHaveCount(1);
 	await search.fill('neexistujici jmeno');
 	await expect(page.locator('tbody')).toContainText('Žádné výsledky neodpovídají hledání.');
 	await page.getByRole('button', { name: 'Vymazat hledání' }).click();
 	await expect(search).toBeEmpty();
-	await expect(page.locator('tbody tr')).toHaveCount(90);
+	await expect(page.locator('tbody tr')).toHaveCount(89);
 });
 
 test('excludes DNS from lists and counts but keeps DNF across tracks and categories', async ({
@@ -39,7 +39,7 @@ test('excludes DNS from lists and counts but keeps DNF across tracks and categor
 	await expect(page.locator('tbody tr')).toHaveCount(88);
 	await expect(page.locator('tbody')).not.toContainText('DNS');
 	await expect(page.locator('tbody')).toContainText('DNF');
-	await page.getByRole('button', { name: '33 km (74)', exact: true }).click();
+	await page.getByRole('button', { name: '33 km (73)', exact: true }).click();
 	await page.getByRole('button', { name: 'Ženy (34)', exact: true }).click();
 	await expect(page.locator('tbody tr')).toHaveCount(34);
 	await expect(page.locator('tbody')).not.toContainText('DNS');
@@ -65,7 +65,7 @@ test('uses bonus categories from the CSV and searches their enriched bibs', asyn
 test('keeps filters usable and the table scrollable on mobile', async ({ page }) => {
 	await page.setViewportSize({ width: 340, height: 844 });
 	await expect(page.getByRole('searchbox', { name: 'Hledat' })).toBeVisible();
-	await expect(page.getByRole('button', { name: '61 km (90)', exact: true })).toBeVisible();
+	await expect(page.getByRole('button', { name: '61 km (89)', exact: true })).toBeVisible();
 	expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 	const table = page.getByRole('region', { name: 'Výsledková tabulka, lze posouvat vodorovně' });
 	expect(await table.evaluate((element) => element.scrollWidth > element.clientWidth)).toBe(true);

@@ -6,7 +6,6 @@
     { name: 'Pravidla', href: '/pravidla' },
     { name: 'Propozice', href: '/propozice' },
     { name: 'Trať závodu', href: '/trat-zavodu' },
-    { name: 'Startovka', href: '/startovka' },
     { name: 'Výsledky', href: '/vysledky' }
   ];
   const cta = { name: 'Výsledky', href: '/vysledky' };
@@ -22,7 +21,7 @@
     <div class="flex lg:flex-1">
       <a href="/" class="-m-1.5 p-1.5">
         <span class="sr-only">Slapy Trail Maniacs</span>
-        <img src="/slapy-trail-maniacs-2025-logo.svg" alt="" class="h-20 w-auto" />
+        <img src="/slapy-trail-maniacs-2027-logo.svg" alt="" class="h-20 w-auto" />
       </a>
     </div>
     <div class="flex lg:hidden">
@@ -51,7 +50,7 @@
       <div class="flex items-center justify-between">
         <a href="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Slapy Trail Maniacs</span>
-          <img src="/slapy-trail-maniacs-2025-logo.svg" alt="" class="h-20 w-auto" />
+          <img src="/slapy-trail-maniacs-2027-logo.svg" alt="" class="h-20 w-auto" />
         </a>
         <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" onclick={toggleMobileMenu}>
           <span class="sr-only">Zavřít menu</span>

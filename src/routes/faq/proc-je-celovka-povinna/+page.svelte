@@ -8,11 +8,11 @@
 
                 <p>Významnou předností trailu na Slapech je, že se běží z velké části v lese a to jak po cestách, tak i po malých pěšinkách.</p>
                 <p>Tratě Slapy Trail Maniacs jsou poměrně dlouhé a po cestě se může přihodit ledacos.</p>
-                <p>21. října bude v Cholíně východ slunce v 7:33 a večer slunce zapadne v 18:00.</p>
+                <p>Koncem října se v Cholíně rozednívá až po startu nejdelší tratě a stmívá se dlouho před časovým limitem závodu.</p>
 
                 <p>Možná si tedy říkáte: „Proč bych si na závod měl/a brát čelovku, když poběžím normálně přes den?“ Ale nebojte se, máme pro vás několik důvodů, proč je tato položka součástí povinné výbavy a proč byste ji měli mít připravenou.</p>
 
-                <p>První a nejdůležitější důvod je vaše bezpečnost. Ať už se rozhodnete zvolit si trasu dlouhou 61 km, 46 km nebo 33 km, je pravděpodobné, že někteří z vás doběhnou do cíle až po setmění. Na nejdelší trasu navíc startujete ještě před svítáním. A protože se na našem trailu pohybujete především v lese, kde je mnoho překážek, jako jsou kořeny, kameny a spadlé stromy, je dobré si vidět pod nohy. Na malých lesních pěšinkách bude čelovka vaším nejlepším přítelem.</p>
+                <p>První a nejdůležitější důvod je vaše bezpečnost. Ať už se rozhodnete zvolit si trasu dlouhou 61 km, 47 km nebo 33 km, je pravděpodobné, že někteří z vás doběhnou do cíle až po setmění. Na nejdelší trasu navíc startujete ještě před svítáním. A protože se na našem trailu pohybujete především v lese, kde je mnoho překážek, jako jsou kořeny, kameny a spadlé stromy, je dobré si vidět pod nohy. Na malých lesních pěšinkách bude čelovka vaším nejlepším přítelem.</p>
 
                 <p>Druhým důvodem je navigace. Trať je značená fáborky a ty jsou za tmy vidět mnohem lépe po nasvícení čelovkou. Samozřejmě můžete mít GPX mapu v hodinkách nebo na mobilu, ale každá přeběhnutá odbočka vás může stát jak cenný čas tak i sílu. A té nebývá na Slapech nazbyt.</p>
 
