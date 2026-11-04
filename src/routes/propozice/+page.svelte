@@ -623,12 +623,8 @@
 		<div class="doc-section" id="ubytovani">
 			<div class="kicker">08</div>
 			<h2>Ubytování</h2>
-			<ul>
-				<li>V pokojích na postelích, 1 noc = 250 Kč/os.</li>
-				<li>
-					Při případném naplnění kapacity možné přespat na karimatce ve společenské místnosti.
-				</li>
-			</ul>
+			<p>V pokojích na postelích, 1 noc = 250 Kč/os.</p>
+			<p>Při případném naplnění kapacity možné přespat na karimatce ve společenské místnosti.</p>
 		</div>
 
 		<div class="doc-section" id="parkovani">
@@ -652,6 +648,8 @@
 				<b>Polévka v cíli zdarma</b>Každý závodník dostane po doběhu v cíli teplou polévku zdarma.
 			</div>
 			<p>Další jídlo a pití je k dispozici v Hořovické chatě v dostatečném množství.</p>
+			<p>Večeře (hlavní jídlo + polévka): 200 Kč.</p>
+			<p>Snídaně: 60 Kč.</p>
 		</div>
 
 		<div class="doc-section" id="startovne-doc">
@@ -680,7 +678,7 @@
 				<div class="chip">Jídlo a pití na občerstvovacích stanicích</div>
 				<div class="chip">Polévka v cíli</div>
 				<div class="chip">Možnost sprchy po doběhu</div>
-				<div class="chip">Malý dárek při registraci do konce srpna</div>
+				<div class="chip">Malý dárek při registraci do konce června</div>
 			</div>
 		</div>
 
@@ -730,7 +728,7 @@
 				</div>
 				<div class="kv-row">
 					<div class="k">Organizační tým</div>
-					<div class="v">Lenka Nováková, Dana Jahn Odvody, Tomáš Strašák, Ondra Hlaváč</div>
+					<div class="v">Lenka Nováková, Dana Jahn Odvody, Eva Kovářová a Ondra Hlaváč</div>
 				</div>
 			</div>
 		</div>

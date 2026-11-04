@@ -197,9 +197,7 @@
 				<div class="kicker">Tratě &amp; kategorie</div>
 				<h2>Vyberte si distanci.</h2>
 			</div>
-			<p class="lead">
-				Tři profily, jeden terén. Čím delší trať, tím míň asfaltu vám bude chybět.
-			</p>
+			<p class="lead">Tři profily, jeden terén. Čím delší trať, tím míň asfaltu vám bude chybět.</p>
 		</div>
 		<div class="track-grid">
 			<div class="track-card">
@@ -444,6 +442,8 @@
 			<div class="info-cell">
 				<h3>Stravování</h3>
 				<p>K dispozici přímo v Hořovické chatě, v dostatečném množství.</p>
+				<p>Večeře (hlavní jídlo + polévka) — 200 Kč.</p>
+				<p>Snídaně — 60 Kč.</p>
 			</div>
 			<div class="info-cell">
 				<h3>Doprava na start</h3>
@@ -498,7 +498,7 @@
 			<div class="chip">Itinerář</div>
 			<div class="chip">Jídlo a pití na stanicích</div>
 			<div class="chip">Sprcha po doběhu</div>
-			<div class="chip">Dárek při reg. do konce srpna</div>
+			<div class="chip">Dárek při reg. do konce června</div>
 		</div>
 	</div>
 </section>
@@ -574,7 +574,7 @@
 				<div class="role">Organizační tým</div>
 			</div>
 			<div class="team-row">
-				<div class="name">Tomáš Strašák</div>
+				<div class="name">Eva Kovářová</div>
 				<div class="role">Organizační tým</div>
 			</div>
 			<div class="team-row">

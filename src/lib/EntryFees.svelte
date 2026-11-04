@@ -51,7 +51,6 @@
 	</table>
 </div>
 <p class="fees-hint">Další cenová pásma zobrazíte posunutím tabulky doprava →</p>
-<p class="fees-note">Ubytování: 250 Kč za osobu a noc.</p>
 
 <style>
 	.fees-scroll {
