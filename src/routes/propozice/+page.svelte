@@ -623,7 +623,7 @@
 		<div class="doc-section" id="ubytovani">
 			<div class="kicker">08</div>
 			<h2>Ubytování</h2>
-			<p>V pokojích na postelích, 1 noc = 250 Kč/os.</p>
+			<p>V pokojích na postelích, 1 noc = 300 Kč/os.</p>
 			<p>Při případném naplnění kapacity možné přespat na karimatce ve společenské místnosti.</p>
 		</div>
 
