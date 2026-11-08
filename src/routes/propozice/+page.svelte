@@ -24,10 +24,11 @@
 			<a href="/#o-zavode">O závodě</a>
 			<a href="/#trate">Tratě</a>
 			<a href="/propozice" class="active-link">Propozice</a>
+			<a href="/startovka">Startovka</a>
 			<a href="/vysledky">Výsledky</a>
 			<a href="/#kontakt">Kontakt</a>
 		</nav>
-		<a href="/vysledky" class="cta-btn">Výsledky</a>
+		<a href="/registrace" class="cta-btn">Registrace</a>
 		<button class="navmenu-btn">☰</button>
 	</div>
 </header>
@@ -748,6 +749,8 @@
 				<h4>Informace</h4>
 				<a href="/propozice">Propozice</a>
 				<a href="/pravidla">Pravidla</a>
+				<a href="/registrace">Registrace</a>
+				<a href="/startovka">Startovka</a>
 				<a href="/vysledky">Výsledky</a>
 			</div>
 			<div class="footer-col">

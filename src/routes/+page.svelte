@@ -6,7 +6,7 @@
 	<title>Slapy Trail Maniacs 2027</title>
 	<meta
 		name="description"
-		content="Slapy Trail Maniacs 2027: 23. října, tratě 33, 47 a 61 km kolem Slapské přehrady. Propozice, startovné a výsledky předchozího ročníku."
+		content="Slapy Trail Maniacs 2027: 23. října, tratě 33, 47 a 61 km kolem Slapské přehrady. Registrace, startovka, propozice a výsledky předchozího ročníku."
 	/>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link
@@ -29,10 +29,11 @@
 			<a href="#trate">Tratě</a>
 			<a href="#info">Info</a>
 			<a href="/propozice">Propozice</a>
+			<a href="/startovka">Startovka</a>
 			<a href="/vysledky">Výsledky</a>
 			<a href="#kontakt">Kontakt</a>
 		</nav>
-		<a href="/vysledky" class="cta-btn">Výsledky</a>
+		<a href="/registrace" class="cta-btn">Registrace</a>
 		<button class="navmenu-btn">☰</button>
 	</div>
 </header>
@@ -47,7 +48,7 @@
 			řád náročnější, než by kdokoliv čekal.
 		</p>
 		<div class="hero-actions">
-			<a href="/vysledky" class="btn-accent">Výsledky 2026</a>
+			<a href="/registrace" class="btn-accent">Přihlásit se</a>
 			<a href="#trate" class="btn-outline">Vybrat trať</a>
 		</div>
 	</div>
@@ -508,11 +509,10 @@
 		<div>
 			<h2>Na viděnou<br />23. října 2027.</h2>
 			<p>
-				Registrace pro ročník 2027 ještě nejsou spuštěné. Zatím se podívejte na výsledky ročníku
-				2026.
+				Registrace pro ročník 2027 jsou spuštěné. Vyberte si svou trať a přidejte se k nám na start.
 			</p>
 		</div>
-		<a href="/vysledky" class="btn-white">Výsledky 2026 →</a>
+		<a href="/registrace" class="btn-white">Přihlásit se →</a>
 	</div>
 </section>
 
@@ -598,6 +598,8 @@
 				<h4>Informace</h4>
 				<a href="/propozice">Propozice</a>
 				<a href="/pravidla">Pravidla</a>
+				<a href="/registrace">Registrace</a>
+				<a href="/startovka">Startovka</a>
 				<a href="/vysledky">Výsledky</a>
 			</div>
 			<div class="footer-col">
