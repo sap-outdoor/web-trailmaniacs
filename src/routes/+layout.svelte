@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import SiteFooter from '$lib/SiteFooter.svelte';
 	import '../app.css';
 
 	let { children } = $props();
@@ -7,7 +8,9 @@
 	onMount(() => {
 		const closeMobileNav = (header: Element | null) => {
 			header?.classList.remove('mobile-nav-open');
-			header?.querySelector<HTMLButtonElement>('.navmenu-btn')?.setAttribute('aria-expanded', 'false');
+			header
+				?.querySelector<HTMLButtonElement>('.navmenu-btn')
+				?.setAttribute('aria-expanded', 'false');
 		};
 
 		const closeAllMobileNavs = () => {
@@ -62,3 +65,5 @@
 </script>
 
 {@render children()}
+
+<SiteFooter />
