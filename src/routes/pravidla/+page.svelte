@@ -215,6 +215,7 @@
 				<h4>Informace</h4>
 				<a href="/propozice">Propozice</a>
 				<a href="/pravidla">Pravidla</a>
+				<a href="/cookies">Cookies</a>
 				<a href="/registrace">Registrace</a>
 				<a href="/startovka">Startovka</a>
 				<a href="/vysledky">Výsledky</a>
