@@ -38,7 +38,7 @@
 		<div class="wrap">
 			<div class="kicker">Informace o webu</div>
 			<h1>Cookies</h1>
-			<p>Web trailmaniacs.cz nepoužívá žádné cookies.</p>
+			<p>Gely, ionťák, banány a sůl. Ale hlavně žádné cookies.</p>
 		</div>
 	</section>
 
@@ -46,7 +46,7 @@
 		<div class="wrap">
 			<div class="doc-content">
 				<div class="doc-section">
-					<h2>Náš web je bez cookies</h2>
+					<h2>Náš web <em>běží</em> bez cookies</h2>
 					<p>
 						Při prohlížení našeho webu do vašeho prohlížeče neukládáme žádné vlastní cookies.
 						Nepoužíváme ani analytické, ani reklamní cookies.
@@ -72,49 +72,15 @@
 						Máte dotaz k používání cookies? Napište nám na
 						<a href="mailto:info@trailmaniacs.cz" class="inline-link">info@trailmaniacs.cz</a>.
 					</p>
+					<p>
+						Další informace o správci, účelech zpracování a vašich právech najdete na stránce
+						<a href="/ochrana-osobnich-udaju" class="inline-link">Ochrana osobních údajů</a>.
+					</p>
 				</div>
 			</div>
 		</div>
 	</section>
 </main>
-
-<footer>
-	<div class="wrap">
-		<div class="footer-grid">
-			<div class="footer-col">
-				<h4>Závod</h4>
-				<a href="/#o-zavode">O závodě</a>
-				<a href="/#trate">Tratě a kategorie</a>
-				<a href="/#startovne">Startovné</a>
-			</div>
-			<div class="footer-col">
-				<h4>Informace</h4>
-				<a href="/propozice">Propozice</a>
-				<a href="/pravidla">Pravidla</a>
-				<a href="/cookies">Cookies</a>
-				<a href="/registrace">Registrace</a>
-				<a href="/startovka">Startovka</a>
-				<a href="/vysledky">Výsledky</a>
-			</div>
-			<div class="footer-col">
-				<h4>Kontakt</h4>
-				<a href="mailto:info@trailmaniacs.cz">info@trailmaniacs.cz</a>
-				<a href="tel:+420602268810">+420 602 268 810</a>
-			</div>
-			<div class="footer-col">
-				<h4>Sledujte nás</h4>
-				<div class="social-row">
-					<a href="https://www.facebook.com/SlapyTrailManiacs" title="Facebook">FB</a>
-					<a href="https://www.instagram.com/trailmaniacs" title="Instagram">IG</a>
-				</div>
-			</div>
-		</div>
-		<div class="footer-bottom">
-			<div>© 2027 Š&amp;P Outdoor, z. s. — Všechna práva vyhrazena.</div>
-			<div class="mono">Slapská přehrada · Borotice · Cholín</div>
-		</div>
-	</div>
-</footer>
 
 <style>
 	.cookies-body {
