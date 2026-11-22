@@ -657,6 +657,10 @@
 			<div class="kicker">11</div>
 			<h2>Startovné</h2>
 			<EntryFees />
+			<p>
+				Podmínky účasti, platby a převodu startovného najdete v
+				<a href="/pravidla" class="inline-link">pravidlech závodu</a>.
+			</p>
 			<p>Online registrace se uzavřou 20. 10. 2027 ve 23:59.</p>
 			<p style="margin-top:20px;">
 				Platbu proveďte prosím během 5 dnů ode dne registrace. Pokud nebude platba do 7 dnů od
@@ -717,7 +721,7 @@
 			<div class="kv-list">
 				<div class="kv-row">
 					<div class="k">Organizátor</div>
-					<div class="v">Š&amp;P OUTDOOR</div>
+					<div class="v"><a href="/poradatel" class="inline-link">Š&amp;P - outdoor z.s.</a></div>
 				</div>
 				<div class="kv-row">
 					<div class="k">Ředitel závodu</div>
@@ -735,41 +739,3 @@
 		</div>
 	</div>
 </div>
-
-<footer>
-	<div class="wrap">
-		<div class="footer-grid">
-			<div class="footer-col">
-				<h4>Závod</h4>
-				<a href="/#o-zavode">O závodě</a>
-				<a href="/#trate">Tratě a kategorie</a>
-				<a href="/#startovne">Startovné</a>
-			</div>
-			<div class="footer-col">
-				<h4>Informace</h4>
-				<a href="/propozice">Propozice</a>
-				<a href="/pravidla">Pravidla</a>
-				<a href="/cookies">Cookies</a>
-				<a href="/registrace">Registrace</a>
-				<a href="/startovka">Startovka</a>
-				<a href="/vysledky">Výsledky</a>
-			</div>
-			<div class="footer-col">
-				<h4>Kontakt</h4>
-				<a href="mailto:info@trailmaniacs.cz">info@trailmaniacs.cz</a>
-				<a href="tel:+420602268810">+420 602 268 810</a>
-			</div>
-			<div class="footer-col">
-				<h4>Sledujte nás</h4>
-				<div class="social-row">
-					<a href="https://www.facebook.com/SlapyTrailManiacs" title="Facebook">FB</a>
-					<a href="https://www.instagram.com/trailmaniacs" title="Instagram">IG</a>
-				</div>
-			</div>
-		</div>
-		<div class="footer-bottom">
-			<div>© 2027 Š&amp;P Outdoor, z. s. — Všechna práva vyhrazena.</div>
-			<div class="mono">Slapská přehrada · Borotice · Cholín</div>
-		</div>
-	</div>
-</footer>
